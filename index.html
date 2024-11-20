@@ -7,7 +7,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Social links profile</title>
-  <link rel="stylesheet" href="assets/styles/reset.css">
   <link rel="stylesheet" href="assets/styles/style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -16,25 +15,24 @@
 </head>
 <body>
 
-  <main>
-    <section id="info">
-      <img src="#" alt="profilePic">
-      <h2 id="name">"Your Name"</h2>  <!-- Talvez vire tudo <p> -->
-      <h3 id="loc">"Where you from"</h3>
-      <p id="tec">"What you do"</p>
-    </section>
-    <section id="social">
-      <a href="#" id="github">GitHub</a>
-      <a href="#" id="frontendMentor">Frontend Mentor</a>
-      <a href="#" id="linkedin">Linkedin</a>
-      <a href="#" id="twitter">Twitter</a>
-      <a href="#" id="instagram">Instagram</a>
-    </section>
+  <main class="container">
+    <article class="profile-card">
+      <header>
+        <img src="./assets/images/lucas-photo.jpg" alt="Profile Picture" class="profile-pic">
+        <h1 class="name">Lucas Emanuel</h1>
+        <p class="location">Minas Gerais, Brazil</p>
+      </header>
+      <section class="bio-section">
+        <p class="bio">"Student - Information System."</p>
+      </section>
+      <nav class="links">
+        <a href="https://github.com/lucasdev-err/" target="_blank" class="link primary">GitHub</a>
+        <a href="https://www.frontendmentor.io/profile/lucasdev-err" target="_blank" class="link">Frontend Mentor</a>
+        <a href="https://www.linkedin.com/in/lucas-emanuel-rodrigues-ribeiro-156704333/" target="_blank" class="link">LinkedIn</a>
+        <a href="#" class="link">Twitter(Coming soon)</a>
+        <a href="#" class="link">Instagram(Coming soon)</a>
+      </nav>
+    </article>
   </main>
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
 </body>
 </html>
