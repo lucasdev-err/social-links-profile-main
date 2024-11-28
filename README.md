@@ -31,9 +31,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I aim to further deepen my knowledge in front-end development by exploring modern frameworks and refining my skills in HTML, CSS, and JavaScript. Additionally, I plan to expand my expertise in back-end development and database management, striving for a more comprehensive understanding of web development.
 
 
 ## Author
